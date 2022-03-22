@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+.headerContent{
+    display: flex;
+    padding:30px 0 25px;
+    align-items: center;
+}
+.logo{
+    flex:1;
+    text-align: left;
+}
+.logo img{
+    width: 117px;
+    height: 53px;
+}
+.logo span{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing:5px;
+    vertical-align: baseline;
+}
+.adCard{
+    margin-right: 35px;
+}
+.adCard img{
+    width: 136px;
+    height: 39px;
+}
+.loginWrap{
+    display: flex;
+    width: 281px;
+    align-items: center;
+    justify-content: space-between;
+}
+.loginWrap li img{
+    width: 36px;
+    height: 36px;
+}
+.loginWrap li p{
+    font-size: 13px;
+    color: #666666;
+}
+.menuWrap{
+    border-top: 1px solid #eeeeee;
+}
+.menuWrap ul{
+    display: flex;
+    align-items: baseline;
+    width: 452px;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.menuWrap li h2{
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+}
+.menuWrap li:nth-child(3){
+    color: #fb4357;
+}
+.menuWrap ul:hover dl{
+    display: block;
+}
+.menuWrap dl{
+    position: absolute;
+    height: 200px;
+    /*display: none;*/
+    padding: 25px 0;
+    top: 16%;
+    
+}
+.menuWrap li:nth-child(1) > dl{
+    width: 137px;
+}
+.menuWrap li:nth-child(2) > dl{
+    padding-left: 80px;
+}
+.menuWrap li:nth-child(3) > dl{
+    padding-left: 160px;
+}
+.menuWrap li:nth-child(4) > dl{
+    padding-left: 260px;
+}
+.menuWrap li:nth-child(5) > dl{
+    padding-left: 370px;
+}
+.menuWrap li:nth-child(6) > dl{
+    padding-left: 435px;
+}
+.menuWrap dt{
+    font-weight: bold;
+    padding: 18px 0 10px;
+    text-align: left;
+}
+.menuWrap dd{
+    text-align: left;
+    padding:5px 0;
+}
+
