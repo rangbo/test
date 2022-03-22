@@ -59,14 +59,17 @@
     color: #fb4357;
 }
 .menuWrap ul:hover dl{
-    display: block;
+    opacity: 1;
+    height: 200px;
 }
 .menuWrap dl{
     position: absolute;
-    height: 200px;
-    /*display: none;*/
     padding: 25px 0;
     top: 16%;
+    width: 980px;
+    transition: all .4s;
+
+    height: 0;
     
 }
 .menuWrap li:nth-child(1) > dl{
@@ -96,4 +99,3 @@
     text-align: left;
     padding:5px 0;
 }
-
