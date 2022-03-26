@@ -1,0 +1,220 @@
+@charset "UTF-8";
+
+.tab_wrap{
+    padding:30px 0;
+    margin-bottom: 80px;
+}
+.tab_menu_container {
+    display: flex;
+    padding-top: 50px;
+    align-items: center;
+    border-bottom: 3px solid #241D1E;
+}
+.tab_box {
+    display:none;
+}
+.tab_box.on {
+    display:block;
+}
+.tabTitle{
+    flex: 1;
+    text-align: left;
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 11px;
+}
+.tab_menu_btn {
+    font-size: 14px;
+    font-weight: 500;
+    color: #666666;
+}
+.tab_menu_btn.on {
+    font-size: 14px;
+    font-weight: 500;
+    color: #FB4357;
+}
+.tab_menu_btn.on::before{
+    content: '';
+    width: 9px;
+    height: 11px;
+    display: inline-block;
+    margin-right: 2px;
+    background: url("../image/redArrow.png") no-repeat 0 0 / 9px auto;
+}
+.viewNowMov{
+    float:  left;
+    margin-top: 20px;
+}
+.movChartWrap{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 980px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.movChart{
+    width: 197px;
+}
+.movChartRankGrey, 
+.movChartRank{
+    width: 197px;
+    height: 28px;
+    background: #FB4357;
+    font-size: 19px;
+    font-weight: 500;
+    color:#ffffff;
+    line-height: 28px;
+    clear: both;
+    margin-bottom: 4px;
+}
+.movChartRankGrey{
+    background: #333333;
+}
+.movChartImg{
+    position: relative;
+}
+.movChartImg img{
+    width:197px;
+    height: 260px;
+    position: relative;
+}
+.movChartImg::before{
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 62px;
+    background:url("../image/bg_poster-gradation.png") repeat-x center;
+    z-index: 2;
+}
+.movChartBadge1::after{
+    content: '';
+    display: block;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: 7px;
+    left: 8px;
+    z-index: 4;
+    background: url("../image/movChartBadge1.png") no-repeat 0 0 / 22px auto;
+}
+.movChartInfo-title{
+    text-align: left;
+    margin-top: 10px;
+}
+.movChartInfo-title a{
+    font-size: 15px;
+    font-weight: 500;
+}
+.movChartInfoCon1{
+    float: left;
+    font-size: 11px;
+    color: #444444;
+}
+.movChartInfoCon1 em{
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.movChartInfoCon2{
+    float: left;
+    font-size: 12px;
+    color: #444444;
+    font-weight: 500;
+}
+.movChartInfoDate{
+    font-size: 11px;
+    color: #666666;
+    font-weight: 500;
+    text-align: left;
+    clear: both;
+    margin-top: 3px;
+}
+.buyTicketBtn{
+    width: 97px;
+    height: 25px;
+    background: #FB4357;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px;
+    float: left;
+    margin-top: 10px;
+}
+.movChartInfoCon1::after{
+    content: '';
+    width: 1px;
+    height: 10px;
+    font-size: 10px;
+    display: inline-block;
+    margin:0 6px;
+    border-right: 1px solid #cccccc;
+}
+.movChartInfoCon2::before{
+    content: '';
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../image/eggGoldenegggood.png")no-repeat 0 0 / 16px auto;
+}
+.movChartAdImg{
+    padding: 13px 19px;
+    background: #222221;
+    border-bottom: 1px solid #070707;
+}
+.movChartAdImg img{
+    width: 130px;
+    height: 300px;
+}
+.movChartAdText{
+    padding: 16px 23px;
+    background: #222221;
+}
+.movChartAdText1{
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: left;
+    padding-bottom: 7px;
+    border-bottom: 3px solid #FDFCF0;
+}
+.movChartAdText1::before{
+    content: '';
+    width: 29px;
+    height: 17px;
+    display: inline-block;
+    margin-right: 4px;
+    vertical-align: middle;
+    background: url("../image/ico_ad1.png") no-repeat center / 29px auto;
+}
+.movChartAdText2{
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: left;
+    padding: 7px 0;
+    border-bottom: 3px solid #FDFCF0;
+}
+.movChartAdLong{
+    padding-top: 50px;
+}
+.moreViewBtn{
+    font-size: 13px;
+    color: #333333;
+    font-weight: 500;
+    float: right;
+    padding: 30px 0;
+}
+.moreViewBtn::after{
+    content: '';
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 4px;
+    background:url("../image/moreBtn.png")no-repeat center / 22px auto;
+}
