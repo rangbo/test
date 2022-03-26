@@ -133,6 +133,12 @@
     clear: both;
     margin-top: 3px;
 }
+.movChartInfoDate em{
+    color: #FB4357;
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight:bold;
+}
 .buyTicketBtn{
     width: 97px;
     height: 25px;
@@ -217,4 +223,21 @@
     vertical-align: middle;
     margin-left: 4px;
     background:url("../image/moreBtn.png")no-repeat center / 22px auto;
+}
+.movOpenDate{
+    text-align: left;
+    margin-top: 30px;
+    color: #222222;
+    font-size: 21px;
+    font-weight: 500;
+    margin-left:62px
+}
+.movOpenChartWrap{
+    text-align: left;
+    margin:0 0 30px -62px;
+}
+.movOpenChartWrap li{
+    display: inline-block;
+    margin-left: 61px;
+    padding:20px 0;
 }
