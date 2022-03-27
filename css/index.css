@@ -437,7 +437,7 @@ input[type="checkbox"]{display: none;}
     display: flex;
 }
 .noticeBox{
-    padding:4px 26px 30px 30px;
+    padding:4px 30px 30px 30px;
     border: 1px solid #e4e4e4;
     border-radius: 10px 0 0 10px;
 }
@@ -507,7 +507,7 @@ input[type="checkbox"]{display: none;}
     color: #666666;
 }
 .noticeWrapAdImg{
-    margin-left: 33px;
+    margin-left: 53px;
 }
 .noticeWrapAdImg img{
     width: 200px;
