@@ -70,6 +70,7 @@
 .searchWrap input[type="text"]{
     border: none;
     width: 130px;
+    background: transparent;
 }
 .searchWrap input[type="text"]:focus{
     outline: none;
@@ -121,7 +122,7 @@
     display: block;
     position: absolute;
     z-index: 9999;
-    border-bottom: 1px solid #333333;
+    border-bottom: 1px solid #999999;
 }
 .drop_menu .dropmenu_box {
     margin: 0 auto;
@@ -168,6 +169,29 @@
     font-weight: bold;
     font-size: 14px;
     margin-bottom: 5px;
+}
+#lnb.fixed{
+    position: fixed; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(215, 67, 87), rgb(241,79,58) 59%, rgb(239, 100, 47));
+    z-index: 100;
+    color: #ffffff;
+}
+#lnb.fixed .menu > li > a{
+    color: #ffffff;
+}
+.lnbLogo{
+    display: none;
+}
+.lnbLogo img{
+    width: 70px;
+    height: 32px;
+}
+#lnb.fixed .lnbLogo{
+    display: block;
+    margin-right: 50px;
 }
 
 

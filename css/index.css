@@ -192,6 +192,8 @@ input[type="checkbox"]{display: none;}
 }
 .movChartImg{
     position: relative;
+    border-radius: 10px;
+    height: 234px;
 }
 .movChartImg img{
     width: 171px;
@@ -209,6 +211,45 @@ input[type="checkbox"]{display: none;}
     height: 234px;
     background:url("../image/backGradient.png") no-repeat 0 5px / 171px auto;
     z-index: 2;
+}
+.movChartImg:hover img{
+    filter: brightness(70%);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.movChartImg:hover .movChartTicket{
+    display:block;
+    z-index: 10;
+}
+.movChartTicket{
+    position: absolute;
+    top: 30%;
+    left: 25px;
+    display: none;
+
+}
+.ticketView{
+    width: 120px;
+    height: 35px;
+    background: #ffffff;
+    display: block;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.ticketView:hover{
+    opacity: 80%;
+}
+.ticketBuy{
+    width: 120px;
+    height: 35px;
+    background: #fb4357;
+    color: #ffffff;
+    display: block;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.ticketBuy:hover{
+    opacity: 80%;
 }
 .movChartRan{
     font-size: 50px;
@@ -247,10 +288,12 @@ input[type="checkbox"]{display: none;}
 .movChartInfo span{
     color: #444444;
 }
+.movChartInfo-title{
+    padding-top: 14px;
+}
 .movChartInfo-title a{
     font-weight: 500;
     font-size: 18px;
-    margin-top: 14px;
 }
 .movChartInfoCon1::before{
     content: '';
@@ -275,33 +318,22 @@ input[type="checkbox"]{display: none;}
     flex: 1;
     text-align: left;
 }
-.swiper {
-    width: 100%;
-    height: 100%;
-}
-.swiper-slide{
-    overflow: hidden;
-}
-.swiper-slide img {
+.swiper-slide a img {
     display: block;
     width: 310px;
     height: 207px;
     border-radius: 10px;  
     transition: transform .5s; 
     border-radius: 10px;
-}
-.swiper-slide img:hover{
-    transform: scale(1.1, 1.1);
+    overflow: hidden;
 }
 .swiper-button-next {
     background: url("../image/nextBtn.png") no-repeat 0 0 / 25px auto;
-    
 }
 .swiper-button-prev {
     background: url("../image/nextBtn.png") no-repeat 0 18px / 25px auto;
     transform: rotate(180deg);
 }
-
 .swiper-button-prev::after,
 .swiper-button-next::after{
     display: none;
@@ -437,7 +469,7 @@ input[type="checkbox"]{display: none;}
     display: flex;
 }
 .noticeBox{
-    padding:4px 30px 30px 30px;
+    padding:4px 35px 30px 35px;
     border: 1px solid #e4e4e4;
     border-radius: 10px 0 0 10px;
 }
@@ -487,6 +519,7 @@ input[type="checkbox"]{display: none;}
     border: 1px solid #e4e4e4;
     border-radius: 0 10px 10px 0;
     padding: 24px 30px 0;
+    border-left: none;
 }
 .qrBox strong{
     font-size: 16px;
@@ -507,7 +540,7 @@ input[type="checkbox"]{display: none;}
     color: #666666;
 }
 .noticeWrapAdImg{
-    margin-left: 53px;
+    margin-left: 55px;
 }
 .noticeWrapAdImg img{
     width: 200px;
