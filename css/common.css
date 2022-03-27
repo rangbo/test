@@ -113,7 +113,6 @@
 .header_box li:nth-child(3) a {
     color: #FB4357;
 }
-
 .drop_menu {
     width: 100%;
     height: 280px;
@@ -193,8 +192,6 @@
     display: block;
     margin-right: 50px;
 }
-
-
 .footAdImg{
     background-color: #FFA443;
     width: 100vw;
