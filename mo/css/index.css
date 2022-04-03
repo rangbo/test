@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+.head{
+    position: relative;
+    height: 44px;
+    display: flex;
+    align-items: center;
+}
+.head__menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.head__menu img{
+    width: 44px;
+    height: 44px;
+}
+.head__logo{
+    margin: 0 auto;
+}
+.head__logo img{
+    width: 70px;
+    height: 30px;
+}
+
+.tab__wrap{
+    
+}
+.tab__menu--container {
+    display: flex;
+    white-space: nowrap;
+    overflow-x: scroll;
+    height: 50px;
+    padding: 0 16px;
+    align-items: center;
+    background: linear-gradient(to left, rgb(255, 115, 86), rgb(251, 67, 87));
+}
+.tab__menu--container::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
+.tab__box {
+    display:none;
+}
+.tab__box.on {
+    display:block;
+}
+.tabBtn{
+}
+.tab__menu--btn {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 16px;
+    height: 48px;
+}
+.tab__menu--btn.on {
+    border-bottom: 3px solid #ffffff;
+}
+.mainview__img img{
+    width: 100%;
+    min-height: 146px;
+    height: 100%;
+}
+.mainview{
+    position: relative;
+}
+.mainview__btn{
+    position: absolute;
+    top: 98px;
+    left:26px;
+    background: #ffffff;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+.mainview__btn p::before{
+    content: '';
+    width: 8px;
+    height: 10px;
+    display: inline-block;
+    margin-right: 4px;
+    background: url("../image/redplaybtn.png")no-repeat center / 8px auto;
+}

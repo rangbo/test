@@ -9,6 +9,19 @@
         $('.tab_box').eq(idx).show();
     });
 
+    $( window ).scroll( function() {
+        if ( $( this ).scrollTop() > 200 ) {
+            $( '.top, .ticketBtn' ).fadeIn();
+        } else {
+            $( '.top, .ticketBtn' ).fadeOut();
+        }
+    } );
+    
+    $( '.top' ).click( function() {
+        $( 'html, body' ).animate( { scrollTop : 0 }, 400 );
+        return false;
+    } );
+
 });
 
 })(jQuery);

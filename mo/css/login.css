@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+.head{
+    position: relative;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f2f2f2;
+}
+.head__menu{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+.head__menu img{
+    width: 30px;
+    height: 30px;
+}
+.head__title{
+    margin: 0 auto;
+    font-size: 17px;
+    font-weight: 500;
+}
+.logo{
+    padding:25px 0 35px;
+}
+.logo img{
+    width: 100px;
+    height: 43px;
+}
+.main{
+    padding: 0 16px;
+}
+.inputbox__id input[type="text"]{
+    padding-left: 30px;
+    background: url("../image/idicon.png") no-repeat left / 24px auto; 
+    margin-bottom: 20px;
+}
+.inputbox__pw input[type="text"]{
+    padding-left: 30px;
+    background: url("../image/pwicon.png") no-repeat left / 24px auto;  
+}
+input[type="text"]{
+    border-bottom: 1px solid #cccccc;
+    border-left:none;
+    border-right:none;
+    border-top:none;
+    width: 91%;
+    height: 47px;
+    line-height: 47px;
+}
+input[type="text"]::placeholder{
+    color: #cccccc;
+}
+
+.inputbox__check{
+    margin-top: 16px;
+    float: right;
+}
+.inputbox__check input[type="checkbox"]{
+    display: none;
+}
+.inputbox__check input[type="checkbox"] + label{
+    width: 20px;
+    height: 20px;
+    background: #cccccc;
+    margin-right: 7px;
+}
+.inputbox__check input[type="checkbox"]:checked + label{
+    background: #FB4357;
+}
+.inputbox__check label::after{
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url("../image/checkbtn.png") no-repeat 4px 8px / 12px auto;
+}
+.inputbox__check span{
+    color: #666666;
+}
+.inputbox__btn{
+    margin: 30px 0;
+    width: 100%;
+    height: 50px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 100px;
+    background-image: linear-gradient(to left, rgb(255, 115, 86), rgb(251, 67, 87));
+    box-shadow: 0 8px 14px -5px rgba(0, 0, 0, 26%);
+}
+.login-search li{
+    display: inline-block;
+}
+.login-search li a{
+    color: #666666;
+}
+.login-search li::after{
+    content: '•';
+    width: 3px;
+    height: 3px;
+    font-size: 3px;
+    color: #DEDEDE;
+    vertical-align: top;
+    margin: 0 8px;
+}
+.login-search li:last-child::after{
+    display: none;
+}
+
+.foot-nav{
+    display: flex;
+    height: 40px;
+    align-items: center;
+    background: #dbdbdb;
+    padding: 0 16px;
+}
+.foot-nav__menu{
+    font-weight: 500;
+}
+
+.foot-nav__menu::after{
+    content: '';
+    width: 1px;
+    height: 8px;
+    font-size: 8px;
+    display: inline-block;
+    border-right: 1px solid #000;
+}
+.foot-nav__menu:last-child::after{
+    display: none;
+}
