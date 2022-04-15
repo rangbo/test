@@ -1,0 +1,206 @@
+@charset "UTF-8";
+
+.login-content{
+    width: 980px;
+    margin: 0 auto;
+    display: flex;
+    align-items: top;
+    padding: 30px 30px 0;
+}
+.tab_wrap{
+    width: 540px;
+    margin-right: 40px;
+}
+.tab_menu_container {
+    display: flex;
+    align-items: center;
+    background: url("../image/bg_tabmenu_grade.png") 0 bottom repeat-x;
+    margin-bottom: 30px;
+}
+.tabBtn{
+
+}
+.tab_menu_btn {
+    width: 100px;
+    height: 37px;
+    line-height: 37px;
+    border-radius: 5px 5px 0 0;
+    background:#898987;
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: 500;
+    border-bottom: 1px solid #898987;
+}
+.tab_menu_btn.on {
+    width: 100px;
+    height: 37px;
+    line-height: 37px;
+    border-radius: 5px 5px 0 0;
+    background:#FB4357;
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: 500;
+    border-bottom: 1px solid #FB4357;
+}
+.tab_box {
+    display:none;
+}
+.tab_box.on {
+    display:block;
+}
+.login{
+    border-bottom: 2px solid #666666;
+}
+.login-input{
+    margin-top: 15px;
+}
+.login__text{
+    font-size: 13px;
+    color: #666666;
+    font-weight: 500;
+}
+.login-input input{
+    border:2px solid #b5b5b5;
+    width: 218px;
+    height: 39px;
+    padding-left: 40px;
+}
+.login-input__id input{
+    background: url("../image/loginIdIcon.png") no-repeat 4px center / 26px auto;
+}
+.login-input__pw {
+    margin-top: 5px;
+}
+.login-input__pw input{
+    background: url("../image/loginPwIcon.png") no-repeat 4px center / 26px auto;
+}
+.ad-login{
+    margin-top: 37px;
+}
+.ad-login img{
+    width: 350px;
+    height: 300px;
+}
+.login-btn{
+    width: 264px;
+    height: 42px;
+    line-height: 37px;
+    left: 0;
+    position: static;
+    margin-top: 5px;
+    padding: 2px;
+    background: #fb4357;
+    text-align: center;
+}
+.login-btn p{
+    display: block;
+    width: 258px;
+    height: 36px;
+    border: 1px solid #ffff;
+    color: #f8f8f8;
+    font-size: 15px;
+    font-weight: 500;
+}
+.login-search{
+    display: flex;
+    width: 264px;
+    margin: 10px auto 13px;
+}
+.login-search__save{
+    flex: 1;
+    text-align: left;
+}
+.login-search__save input + label{
+    font-size: 13px;
+    color: #666666;
+    vertical-align: top;
+}
+.login-search__btn li{
+    display: inline-block;
+}
+.login-search__btn li a{
+    font-size: 12px;
+    color: #666666;
+    text-decoration: underline;
+}
+.login-search__btn li::after{
+    content: '';
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../image/12x12arrow.png") no-repeat 0 0 / 12px auto;
+}
+.login-naver{
+    width: 264px;
+    height: 42px;
+    background: #1ACE61;
+    margin-bottom: 30px;
+    position: relative;
+}
+.login-naver::before{
+    content: '';
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: 11px;
+    left: 8px;
+    padding-right: 8px;
+    border-right: 1px solid #ffffff;
+    background: url("../image/naverlogin.png") no-repeat 0 0 / 22px auto;
+}
+.login-naver p{
+    font-size: 15px;
+    color: #ffffff;
+}
+.one-member__text{
+    font-size: 13px;
+    color: #666666;
+}
+.one-member{
+    display: flex;
+    width: 889px;
+    border:1px solid #d5d4ca;
+    padding: 21px 20px;
+    margin:90px 0 50px;
+}
+.one-member__text strong{
+    font-weight: 500;
+    font-size: 13px;
+    color: #212121;
+}
+.one-member__join{
+    width: 140px;
+    height: 23px;
+    line-height: 23px;
+    border: 2px solid #FB4357;
+    margin: 0 20px 0 28px;
+    position: relative;
+}
+.one-member__join p{
+    font-size: 12px;
+    font-weight: 500;
+    color: #FB4357;
+}
+.one-member__join::after{
+    content: '';
+    width: 23px;
+    height: 23px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: -20px;
+    border-right: 1px solid #d5d4ca;
+}
+.one-member__membership{
+    width: 140px;
+    height: 23px;
+    line-height: 23px;
+    border: 2px solid #333333;
+    margin-left: 15px;
+}
+.one-member__membership p{
+    font-size: 12px;
+    font-weight: 500;
+    color: #333333;
+}

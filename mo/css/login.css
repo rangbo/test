@@ -1,26 +1,5 @@
 @charset "UTF-8";
 
-.head{
-    position: relative;
-    height: 44px;
-    display: flex;
-    align-items: center;
-    border-bottom: 1px solid #f2f2f2;
-}
-.head__menu{
-    position: absolute;
-    top: 8px;
-    left: 16px;
-}
-.head__menu img{
-    width: 30px;
-    height: 30px;
-}
-.head__title{
-    margin: 0 auto;
-    font-size: 17px;
-    font-weight: 500;
-}
 .logo{
     padding:25px 0 35px;
 }
@@ -28,7 +7,7 @@
     width: 100px;
     height: 43px;
 }
-.main{
+.main-content{
     padding: 0 16px;
 }
 .inputbox__id input[type="text"]{
@@ -52,7 +31,6 @@ input[type="text"]{
 input[type="text"]::placeholder{
     color: #cccccc;
 }
-
 .inputbox__check{
     margin-top: 16px;
     float: right;
@@ -108,26 +86,49 @@ input[type="text"]::placeholder{
 .login-search li:last-child::after{
     display: none;
 }
-
-.foot-nav{
-    display: flex;
-    height: 40px;
-    align-items: center;
-    background: #dbdbdb;
-    padding: 0 16px;
+.login-btn{
+    padding: 30px 0 50px;
 }
-.foot-nav__menu{
-    font-weight: 500;
+.login-btn__member{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #ebebeb;
+    border-radius: 25px;
+    position: relative;
+    margin-bottom: 10px;
 }
-
-.foot-nav__menu::after{
+.login-btn__naver{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #ebebeb;
+    border-radius: 25px;
+    position: relative;
+}
+.login-btn__naver img, 
+.login-btn__member img{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 13px;
+    left: 20px;
+}
+.login-btn__naver i::after, 
+.login-btn__member i::after{
     content: '';
     width: 1px;
-    height: 8px;
-    font-size: 8px;
+    height: 20px;
     display: inline-block;
-    border-right: 1px solid #000;
+    vertical-align: middle;
+    border-right: 1px solid #e8e8e8;
+    position: absolute;
+    top: 16px;
+    left: 60px;
 }
-.foot-nav__menu:last-child::after{
-    display: none;
+.login-btn__member a{
+    color: #666666;
+}
+.login-btn__naver a{
+    color: #666666;
 }

@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+    <title>CGV</title>
+    <link href="css/font.css" rel="stylesheet" />
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/moviechart.css" rel="stylesheet" />
+    <link href="css/swiper.css" rel="stylesheet" />
+    <link href="css/common.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <div class="head">
+            <div class="head__menu"><img src="image/menuBtn.png" alt="메뉴버튼"></div>
+            <div class="head__title">영화</div>
+        </div>
+        <!-- // head -->
+    </header>
+    <main>
+        <section class="main-content">
+            <div class="tab-link_container">
+                <a href="#tab_1" class="tab-link active">무비차트</a>
+                <a href="#tab_2" class="tab-link">아트하우스</a>
+                <a href="#tab_3" class="tab-link">개봉예정</a>
+            </div>
+            <!-- // tablinkcontainer --> 
+            <div id="tab-content_container">
+                <div id="tab_1" class="tab-content alive">
+                    <div class="tab-inner_container">
+                        <a href="#tab_1-1" class="tab-inner_link active">예매율순</a>
+                        <a href="#tab_1-2" class="tab-inner_link">에그지수</a>
+                    </div>
+                    <!-- // tabinnercontainer -->
+                    <div id="tab_1-1" class="tab-inner_content active">
+                        <div class="chart">
+                            <div class="chart__img"><img src="image/poster1.jpg" alt="포스터1"></div>
+                            <div class="chart__info">
+                                <strong class="chart__info--title">뜨거운 피</strong>
+                                <div class="chart__info--per">
+                                    <span class="chart__info--per--egg">99%</span>
+                                    <span class="chart__info--per--book">예매율<em>23.5%</em></span>
+                                </div>
+                                <!-- //chart__info--per-->
+                                <p class="chart__info--date">2022.02.17 개봉</p>
+                                <p class="chart__info--view">누적관객 48.6만명  당일관객 610명</p>
+                            </div>
+                            <!-- // chart__info-->
+                        </div>
+                        <!--// chart -->
+                    </div>
+                    <!-- // tab_1-1 -->  
+                    <div id="tab_1-2" class="tab-inner_content"> 
+                            12
+                    </div>
+                    <!-- // tab_1-2 -->
+                </div>
+                <!--tab_1-->
+                <div id="tab_2" class="tab-content">
+                    <div class="tab-inner_container"> 
+                        <a href="#tab_2-1" class="tab-inner_link active">예매율순</a>
+                        <a href="#tab_2-2" class="tab-inner_link">에그지수</a>
+                    </div>
+                    <!-- // tabinnercontainer-->
+                    <div id="tab_2-1" class="tab-inner_content active">
+                            21
+                    </div>
+                    <!-- // tab_2-1 -->
+                    <div id="tab_2-2" class="tab-inner_content">    
+                            22
+                    </div>
+                    <!-- //tab_2-2 -->
+                </div>
+                <!-- //tab_2 -->
+                <div id="tab_3" class="tab-content">
+                    <div class="tab-inner_container"> 
+                        <a href="#tab_3-1" class="tab-inner_link active">예매율순</a>
+                        <a href="#tab_3-2" class="tab-inner_link">에그지수</a>
+                    </div>
+                    <!-- // tabinnercontainer -->
+                    <div id="tab_3-1" class="tab-inner_content active">
+                            31
+                    </div>
+                    <!-- // tab_2-1 -->
+                    <div id="tab_3-2" class="tab-inner_content">    
+                            32
+                    </div>
+                    <!-- // tab_2-2 -->
+                </div>
+                <!-- // tab_2 -->
+            </div>
+            <!-- // tabcontentcontainer -->
+        </section>
+        <!-- // main-content -->
+    </main>
+    <footer>
+        <div class="foot">
+            <ul class="foot-nav">
+                <li class="foot-nav__menu"><a href="#">공지사항</a></li>
+                <li class="foot-nav__menu"><a href="#">고객센터</a></li>
+                <li class="foot-nav__menu"><a href="#">로그인</a></li>
+                <li class="foot-nav__menu"><a href="#">PC버전</a></li>
+            </ul>
+            <section class="foot-content">
+                <dl class="foot-info">
+                    <dt class="foot-info__title info--accordian">CJ CGV (주)
+                        <p class="foot-info__btn accordian-arrow">
+                            <img src="image/accordianbtn.png" alt="아코디언버튼">
+                        </p>
+                    </dt>
+                    <dd class="foot-info__content content" style="display: none;">
+                        대표이사 : 허민회<br/>
+                        (04377)서울특별시 용산구 한강대로 23길 55, 아이파크몰 6층(한강로동)<br/>
+                        통신판매업신고번호 : 2017-서울용산-0662 <a href="#">사업자정보확인</a><br/>
+                        사업자등록번호 : 104-81-45690<br/>
+                        개인정보보호 책임자 : 심준범 호스팅사업자 : CJ 올리브네트웍스<br/>
+                        대표이메일 : cjcgvmaster@cj.net 고객센터 : 1544-1122<br/>
+                    </dd>
+                </dl>
+                <ul class="foot-policy">
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">개인정보 처리방침</a></li>
+                    <li><a href="#">법적고지</a></li>
+                </ul>
+            </section>
+            <!-- //foot-content-->
+        </div>
+        <!-- // foot-info-->
+    </footer>
+<script src="js/jquery-3.5.1.js"></script>
+<script src="js/swiper.js"></script>
+<script src="js/script.js"></script>
+</html>

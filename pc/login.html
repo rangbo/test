@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cgv</title>
+    <link href="css/login.css" rel="stylesheet">
+    <link href="css/font.css" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header_top content">
+            <h1 class="logo"><a href="index.html"><img src="image/logoRed.png" alt="로고"></a><span>CULTUREPLEX</span></h1>
+            <div class="adCard"><a href="#"><img src="image/adCard.png" alt="카드광고이미지"></a></div>
+            <ul class="loginWrap">
+                <li><a href="login.html"><img src="image/loginPassword.png" alt="로그인"><p>로그인</p></a></li>
+                <li><a href="#"><img src="image/loginJoin.png" alt="회원가입"><p>회원가입</p></a></li>
+                <li><a href="#"><img src="image/loginMember.png" alt="마이 씨지브이"><p>MY CGV</p></a></li>
+                <li><a href="customer.html"><img src="image/loginCustomer.png" alt="고객센터"><p>고객센터</p></a></li>
+            </ul>
+        </div>
+        <!--headertop-->
+        <div id="lnb">
+            <div class="menuContainer">
+                <div class="header_box content">
+                <h1 class="lnbLogo"><img src="image/logoWhite.png" alt="픽스헤더로고이미지"></h1>
+                    <ul class="menu">
+                        <li><a href="#">영화</a></li>
+                        <li><a href="#">극장</a></li>
+                        <li><a href="#">예매</a></li>
+                        <li><a href="#">스토어</a></li>
+                        <li><a href="#">이벤트</a></li>
+                        <li><a href="#">혜택</a></li>
+                    </ul>
+                    <div class="searchWrap">
+                        <input type="text" id="topSearch" placeholder="극장판 시그널">
+                        <label for="topSearch"></label>
+                        <button type="submit" class="searchBtn"></button>
+                    </div>
+                </div>
+                <!--content-->
+            </div>
+            <!--menucontainer-->
+            <div class="drop_menu">
+                <ul class="dropmenu_box content">
+                    <li>
+                        <a class="subTitle" href="#">영화</a>
+                        <ul class="sub">
+                            <li><a href="#">무비차트</a></li>
+                            <li><a href="#">아트하스</a></li>
+                            <li><a href="#">ICECOIN</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="subTitle" href="#">극장</a>
+                        <ul class="sub">
+                            <li><a href="#">CGV 극장</a></li>
+                            <li><a href="#">특별관</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="subTitle" href="#">예매</a>
+                        <ul class="sub">
+                            <li><a href="#">빠른예매</a></li>
+                            <li><a href="#">상영스케줄</a></li>
+                            <li><a href="#">English Ticketing</a></li>
+                            <li><a href="#">English Schedule</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="subTitle" href="#">스토어</a>
+                        <ul class="sub">
+                            <li><a href="#">영화관람권</a></li>
+                            <li><a href="#">기프트카드</a></li>
+                            <li><a href="#">콤보</a></li>
+                            <li><a href="#">팝콘</a></li>
+                            <li><a href="#">음료</a></li>
+                            <li><a href="#">스낵</a></li>
+                            <li><a href="#">플레이존</a></li>
+                            <li><a href="#">씨네샵</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="subTitle" href="#">이벤트</a>
+                        <ul class="sub">
+                            <li><a href="#">SPECIAL</a></li>
+                            <li><a href="#">영화/예매</a></li>
+                            <li><a href="#">멤버십CLUB</a></li>
+                            <li><a href="#">CGV 극장별</a></li>
+                            <li><a href="#">제휴할인</a></li>
+                            <li><a href="#">당첨자 발표</a></li>
+                            <li><a href="#">종료된이벤트</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="subTitle" href="#">CGV 할인정보</a>
+                        <ul class="sub">
+                            <li><a href="#">CLUB 서비스</a></li>
+                            <li><a href="#">VIP 라운지</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <!--dropmenu_box-->
+            </div>
+            <!--dropmenu-->
+        </div>
+        <!-- //lnb -->
+    </header>
+
+    <main>
+    <section class="login-content">
+        <div class="tab_wrap">
+            <div class="tab_menu_container">
+                <div class="tabBtn">
+                    <button class="tab_menu_btn on" type="button">로그인</button>
+                    <button class="tab_menu_btn" type="button">비회원 예매</button>
+                    <button class="tab_menu_btn" type="button">비회원 예매 확인</button>
+                </div>
+            </div>
+            <!-- // tab_menu_container -->
+            <div class="tab_box_container">
+                <div class="tab_box on">
+                    <div class="login">
+                        <p class="login__text">아이디 비밀번호를 입력하신 후, 로그인 버튼을 클릭해 주세요.</p>
+                        <ul class="login-input">
+                            <li class="login-input__id">
+                                <input type="text" id="id" name="id">
+                                <label for="id"></label>
+                            </li>
+                            <li class="login-input__pw">
+                                <input type="text" id="id" name="id">
+                                <label for="id"></label>
+                            </li>
+                        </ul>
+                        <!-- //login-btn -->
+                        <button type="submit" class="login-btn">
+                            <p>로그인</p>
+                        </button>
+                        <!-- // login-btn -->
+                        <div class="login-search">
+                            <div class="login-search__save">
+                                <input type="checkbox" name="id-save" id="id-save">
+                                <label for="id-save">아이디저장</label>
+                            </div>
+                            <!-- // login-search__save-->
+                            <ul class="login-search__btn">
+                                <li><a href="#">아이디 찾기</a></li>
+                                <li><a href="#">비밀번호 찾기</a></li>
+                            </ul>
+                            <!-- //login-search__btn-->
+                        </div>
+                        <!-- // login-search -->
+                        <button type="submit" class="login-naver">
+                            <p>네이버 로그인</p>
+                        </button>
+                    </div>
+                    <!-- //login-->
+                    <div class="one-member">
+                        <div class="one-member__text"><strong>CJ ONE 회원이 아니신가요?</strong> 회원가입 하시고 다양한 혜택을 누리세요!</div>
+                        <div class="one-member__join"><p>CJ ONE 회원가입하기</p></div>
+                        <div class="one-member__membership"><p>CJ ONE 멤버십이란?</p></div>
+                    </div>
+                    <!-- // one-member -->
+                </div>
+                <!-- // tab_box_on-->
+                <div class="tab_box">
+                    ff
+                </div>
+                <!-- // tab_box-->
+                <div class="tab_box">
+                    ggg
+                </div>
+                <!-- // tab_box-->
+            </div>
+            <!-- // tab_box_container-->
+        </div>
+        <!-- // tab_wrap-->
+        <div class="ad-login">
+            <img src="image/adlogin.png" alt="로그인광고이미지">
+        </div>
+        <!-- //ad-login -->
+        </section>
+        <!-- // login-content -->
+    </main>
+
+    <footer>
+        <div class="footAd">
+            <div class="footAdImg"><a href="#"><img src="image/footerAdImg.png"></a></div>
+        </div>
+        <!--footAd-->
+        <div class="footInfo">
+            <div class="content">
+            <ul class="policyList">
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#">IR</a></li>
+                <li><a href="#">채용정보</a></li>
+                <li><a href="#">광고/제휴/출점문의</a></li>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">편성기준</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">법적고지</a></li>
+                <li><a href="#">이메일주소무단수집거부</a></li>
+                <li><a href="#">윤리경영</a></li>
+                <li><a href="#">사이버감사실</a></li>
+            </ul>
+            <div class="companyInfo">
+                (04377)서울특별시 용산구 한강대로 23길 55, 아이파크몰 6층(한강로동)<br/>
+                대표이사 : 허민회 · 사업자등록번호 : 104-81-45690 · 통신판매업신고번호 : 2017-서울용산-0662 <a href="#">사업자정보확인</a><br/>
+                호스팅사업자 : CJ올리브네트웍스 · 개인정보보호 책입자 : 심준범 · 대표이메일 :cjcgvmaster@cj.net
+                CJ CGC. All Rights Reserved
+            </div>
+            </div>
+        </div>
+        <!--footInfo-->
+    </footer>
+<script src="js/jquery-3.5.1.js"></script>
+<script src="js/script.js"></script>
+<script src="js/swiper.js"></script>
+</body>
+</html>

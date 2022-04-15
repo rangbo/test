@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+    <title>CGV</title>
+    <link href="css/font.css" rel="stylesheet" />
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/join.css" rel="stylesheet" />
+    <link href="css/swiper.css" rel="stylesheet" />
+    <link href="css/common.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <div class="head">
+            <div class="head__cj"><img src="image/cjonelogo.png" alt="씨제이원로고">
+                <p class="head__cj--text">LIFESTYLE MEMBERSHIP</p>
+            </div>
+            <h1 class="head__logo"><img src="image/logo.png"></h1>
+        </div>
+        <!-- // head -->
+    </header>
+    <main>
+        <div class="join-step">
+            <h2 class="join-step__title">Step1. 본인인증</h2>
+            <span class="join-step__on">1</span>
+            <span class="join-step__off">2</span>
+        </div>
+        <!-- //join-step -->
+        <section class="main-content">
+            <p class="notice">회원가입을 위해 본인인증이 필요합니다.</p>
+            <div class="inputbox">
+                <div class="inputbox__name">
+                    <input type="text" id="name" placeholder="이름입력">
+                    <label for="name"></label>
+                </div>
+                <!-- // inputbox__name -->
+                <div class="inputbox__num">
+                    <div class="inputbox__num--front">
+                        <input type="number" id="front-num" placeholder="주민등록번호 앞 6자리">
+                        <label for="front-num"></label>
+                    </div>
+                    <span class="inputbox__num--dash">&#45;</span>
+                    <div class="inputbox__num--back">
+                        <input type="number" id="back-num" placeholder="">
+                        <label for="back-num"></label>
+                        <span class="inputbox__num--masking">● ● ● ● ● ●</span>
+                    </div>
+                </div>
+                <!-- // inputbox__num-->
+            </div>
+            <!-- //inputbox -->
+            <div class="tab_wrap">
+                <div class="tab_menu_container content">
+                    <ul class="tabBtn">
+                        <li class="tab__menu--btn on" type="button">SKT</li>
+                        <li class="tab__menu--btn" type="button">KT</li>
+                        <li class="tab__menu--btn" type="button">LGU +</li>
+                        <li class="tab__menu--btn" type="button">알뜰폰</li>
+                    </div>
+                </div> <!-- tab_menu_container e -->
+                <div class="tab_box_container">
+                    <div class="tab__box on">
+                        <div class="chk--all info--accordian">
+                            <input type="checkbox" name="check" id="check-all" value='selectAll' onclick='selectAll(this)'>
+                            <label for="check-all"></label>
+                            <span>휴대전화 인증 전체동의</span>
+                            <span class="accordian-arrow"><img src="image/accordianbtn.png"></span>
+                        </div>
+                        <!-- //chk--all -->
+                        <ul class="chk--one content">
+                            <li><a href="#" class="chk--one__list">
+                                    <input type="checkbox" name="check" id="check1" value="check1">
+                                    <label for="check1"></label>
+                                    <span><em>(필수)</em>휴대전화 인증 서비스 이용약관</span>
+                                </a>
+                            </li>
+                            <li><a href="#" class="chk--one__list">
+                                    <input type="checkbox" name="check" id="check2" value="check2">
+                                    <label for="check2"></label>
+                                    <span><em>(필수)</em>고유식별정보 처리 동의</span>
+                                </a>
+                            </li>
+                            <li><a href="#" class="chk--one__list">
+                                    <input type="checkbox" name="check" id="check3" value="check3">
+                                    <label for="check3"></label>
+                                    <span><em>(필수)</em>통신사 이용약관 동의</span>
+                                </a>
+                            </li>
+                            <li><a href="#" class="chk--one__list">
+                                    <input type="checkbox" name="check" id="check4" value="check4">
+                                    <label for="check4"></label>
+                                    <span><em>(필수)</em>개인정보 수집/이용동의</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- //chk--one -->
+                        <div class="inputbox__phone">
+                            <input type="number" id="phone-number" placeholder="휴대전화번호 -없이 입력">
+                            <button type="submit" class="inputbox__phone--submit">인증요청</button>
+                        </div>
+                        <button class="next-btn">다음</button>
+                    </div>
+                    <!--tab_box_on-->
+                    <div class="tab__box">
+                    KT
+                    </div>
+                    <!--tab_box-->
+                    <div class="tab__box">
+                    LGU+
+                    </div>
+                    <!--tab_box-->
+                    <div class="tab__box">
+                    알뜰폰
+                    </div>
+                    <!--tab_box-->
+                </div> <!-- tab_box_container-->
+            </div> <!-- tab_wrap-->
+        </section>
+        <!-- // main-content -->
+    </main>
+    <footer>
+        <div class="foot">
+            <ul class="foot-nav">
+                <li class="foot-nav__menu"><a href="#">공지사항</a></li>
+                <li class="foot-nav__menu"><a href="#">고객센터</a></li>
+                <li class="foot-nav__menu"><a href="#">로그인</a></li>
+                <li class="foot-nav__menu"><a href="#">PC버전</a></li>
+            </ul>
+            <section class="foot-content">
+                <dl class="foot-info">
+                    <dt class="foot-info__title info--accordian">CJ CGV (주)
+                        <p class="foot-info__btn accordian-arrow">
+                            <img src="image/accordianbtn.png" alt="아코디언버튼">
+                        </p>
+                    </dt>
+                    <dd class="foot-info__content content" style="display: none;">
+                        대표이사 : 허민회<br/>
+                        (04377)서울특별시 용산구 한강대로 23길 55, 아이파크몰 6층(한강로동)<br/>
+                        통신판매업신고번호 : 2017-서울용산-0662 <a href="#">사업자정보확인</a><br/>
+                        사업자등록번호 : 104-81-45690<br/>
+                        개인정보보호 책임자 : 심준범 호스팅사업자 : CJ 올리브네트웍스<br/>
+                        대표이메일 : cjcgvmaster@cj.net 고객센터 : 1544-1122<br/>
+                    </dd>
+                </dl>
+                <ul class="foot-policy">
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">개인정보 처리방침</a></li>
+                    <li><a href="#">법적고지</a></li>
+                </ul>
+            </section>
+            <!-- //foot-content-->
+        </div>
+        <!-- // foot-info-->
+    </footer>
+<script src="js/jquery-3.5.1.js"></script>
+<script src="js/swiper.js"></script>
+<script src="js/script.js"></script>
+</html>

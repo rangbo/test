@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cgv</title>
+    <link href="css/faq.css" rel="stylesheet">
+    <link href="css/font.css" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header_top content">
+            <h1 class="logo"><a href="index.html"><img src="image/logoRed.png" alt="로고"></a><span>CULTUREPLEX</span></h1>
+            <div class="adCard"><a href="#"><img src="image/adCard.png" alt="카드광고이미지"></a></div>
+            <ul class="loginWrap">
+                <li><a href="login.html"><img src="image/loginPassword.png" alt="로그인"><p>로그인</p></a></li>
+                <li><a href="#"><img src="image/loginJoin.png" alt="회원가입"><p>회원가입</p></a></li>
+                <li><a href="#"><img src="image/loginMember.png" alt="마이 씨지브이"><p>MY CGV</p></a></li>
+                <li><a href="customer.html"><img src="image/loginCustomer.png" alt="고객센터"><p>고객센터</p></a></li>
+            </ul>
+        </div>
+        <!--headertop-->
+        <div id="lnb">
+            <div class="menuContainer">
+                <div class="header_box content">
+                <h1 class="lnbLogo"><img src="image/logoWhite.png" alt="픽스헤더로고이미지"></h1>
+                    <ul class="menu">
+                        <li><a href="#">영화</a></li>
+                        <li><a href="#">극장</a></li>
+                        <li><a href="#">예매</a></li>
+                        <li><a href="#">스토어</a></li>
+                        <li><a href="#">이벤트</a></li>
+                        <li><a href="#">혜택</a></li>
+                    </ul>
+                    <div class="searchWrap">
+                        <input type="text" id="topSearch" placeholder="극장판 시그널">
+                        <label for="topSearch"></label>
+                        <button type="submit" class="searchBtn"></button>
+                    </div>
+                </div>
+                <!--content-->
+            </div>
+            <!--menucontainer-->
+            <div class="drop_menu">
+                <ul class="dropmenu_box content">
+                    <li>
+                        <a class="subTitle" href="#">영화</a>
+                        <ul class="sub">
+                            <li><a href="#">무비차트</a></li>
+                            <li><a href="#">아트하스</a></li>
+                            <li><a href="#">ICECOIN</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="subTitle" href="#">극장</a>
+                        <ul class="sub">
+                            <li><a href="#">CGV 극장</a></li>
+                            <li><a href="#">특별관</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="subTitle" href="#">예매</a>
+                        <ul class="sub">
+                            <li><a href="#">빠른예매</a></li>
+                            <li><a href="#">상영스케줄</a></li>
+                            <li><a href="#">English Ticketing</a></li>
+                            <li><a href="#">English Schedule</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="subTitle" href="#">스토어</a>
+                        <ul class="sub">
+                            <li><a href="#">영화관람권</a></li>
+                            <li><a href="#">기프트카드</a></li>
+                            <li><a href="#">콤보</a></li>
+                            <li><a href="#">팝콘</a></li>
+                            <li><a href="#">음료</a></li>
+                            <li><a href="#">스낵</a></li>
+                            <li><a href="#">플레이존</a></li>
+                            <li><a href="#">씨네샵</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="subTitle" href="#">이벤트</a>
+                        <ul class="sub">
+                            <li><a href="#">SPECIAL</a></li>
+                            <li><a href="#">영화/예매</a></li>
+                            <li><a href="#">멤버십CLUB</a></li>
+                            <li><a href="#">CGV 극장별</a></li>
+                            <li><a href="#">제휴할인</a></li>
+                            <li><a href="#">당첨자 발표</a></li>
+                            <li><a href="#">종료된이벤트</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="subTitle" href="#">CGV 할인정보</a>
+                        <ul class="sub">
+                            <li><a href="#">CLUB 서비스</a></li>
+                            <li><a href="#">VIP 라운지</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <!--dropmenu_box-->
+            </div>
+            <!--dropmenu-->
+        </div>
+        <!-- //lnb -->
+    </header>
+
+    <main class="content">
+
+        <aside class="col-aside">
+            <ul class="col-aside__snb">
+                <li><a href="customer.html">고객센터 메인</a></li>
+                <li class="on"><a href="#">자주찾는 질문</a></li>
+                <li><a href="#">공지/뉴스</a></li>
+                <li><a href="#">이메일 문의</a></li>
+                <li><a href="#">분실물 문의</a></li>
+                <li><a href="#">단체/대관 문의</a></li>
+            </ul>
+            <p class="col-aside__ad">
+                <img src="image/asidead.png" alt="광고이미지">
+            </p>
+        </aside>
+        <section class="faq main-content">
+            <div class="faq__text">
+                <p class="faq__text--title">자주찾는 질문</p>
+                <p class="faq__text--con">회원님들께서 가장 자주하시는 질문을 모았습니다.<br/>궁금하신 내용에 대해 검색해 보세요.</p>
+            </div>
+            <!-- //faq__text -->
+            <div class="faq__search">
+                <input type="text" placeholder="검색어를 입력해 주세요">
+                <button class="faq__search--btn" type="submit">검색하기</button>
+                <p>추천검색어 : </p>
+                <ul class="faq__search--key">
+                    <li><a href="#">현금영수증</a></li>
+                    <li><a href="#">관람권</a></li>
+                    <li><a href="#">예매</a></li>
+                    <li><a href="#">환불</a></li>
+                    <li><a href="#">취소</a></li>
+                </ul>
+            </div>
+            <!-- // faq__search -->
+            <div class="faq__tab tab_wrap">
+                <div class="tab_menu_container">
+                    <div class="tabBtn">
+                        <button class="tab_menu_btn on" type="button">전체</button>
+                        <button class="tab_menu_btn" type="button">예매/예표</button>
+                        <button class="tab_menu_btn" type="button">관람권/결제수단</button>
+                        <button class="tab_menu_btn" type="button">멤버쉽/클럽서비스</button>
+                        <button class="tab_menu_btn" type="button">VIP관련</button>
+                        <button class="tab_menu_btn" type="button">할인혜택</button>
+                        <button class="tab_menu_btn" type="button">영화관이용</button>
+                        <button class="tab_menu_btn" type="button">특별관</button>
+                        <button class="tab_menu_btn" type="button">기프트샵</button>
+                        <button class="tab_menu_btn" type="button">홈페이지/모바일</button>
+                    </div>
+                </div>
+                <!-- // tab_menu_container -->
+                <div class="tab_box_container">
+                    <div class="tab_box on">
+                        <div class="faq__list">
+                            <p class="faq__list--text">총 <em>169</em>건이 검색되었습니다.</p>
+                            <table class="faq__list--table">
+                                <thead class="faq__list--table--head">
+                                    <tr>
+                                        <th class="faq__list--table--head--num">번호</th>
+                                        <th class="faq__list--table--head--sec">구분</th>
+                                        <th class="faq__list--table--head--title">제목</th>
+                                        <th class="faq__list--table--head--count">조회수</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="faq__list--table--body">
+                                    <tr>
+                                        <td class="faq__list--table--body--num">1</td>
+                                        <td class="faq__list--table--body--sec">[홈페이지/모바일]</td>
+                                        <td class="faq__list--table--body--con"><a href="faqDetail.html">인터넷 예매 후 CGV 현장에서 환불(예매 취소)이 가능한가요?</a></td>
+                                        <td class="faq__list--table--body--count">7741</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="faq__list--table--body--num">2</td>
+                                        <td class="faq__list--table--body--sec">[VIP관련]</td>
+                                        <td class="faq__list--table--body--con"><a href="#">VIP 등급별 유지, 선정 포인트를 알고싶어요</a></td>
+                                        <td class="faq__list--table--body--count">7741</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="faq__list--table--body--num">3</td>
+                                        <td class="faq__list--table--body--sec">[멤버쉽/클럽서비스]</td>
+                                        <td class="faq__list--table--body--con"><a href="#">아이핀(I-PIN) 이 무엇인가요?</a></td>
+                                        <td class="faq__list--table--body--count">7741</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="faq__list--table--body--num">4</td>
+                                        <td class="faq__list--table--body--sec">[VIP관련]</td>
+                                        <td class="faq__list--table--body--con"><a href="#">VIP 선정 기준은 어떻게 되나요?</a></td>
+                                        <td class="faq__list--table--body--count">7741</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="faq__list--table--body--num">5</td>
+                                        <td class="faq__list--table--body--sec">[멤버쉽/클럽서비스]</td>
+                                        <td class="faq__list--table--body--con"><a href="#">생일콤보 받는 방법을 알려주세요. (2020.04.01~)</a></td>
+                                        <td class="faq__list--table--body--count">7741</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="faq__list--table--body--num">6</td>
+                                        <td class="faq__list--table--body--sec">[관뢈권/결제수단]</td>
+                                        <td class="faq__list--table--body--con"><a href="#">관람권 사용해서 예매했는데 현금영수증 발행을 못했어요!</a></td>
+                                        <td class="faq__list--table--body--count">7741</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="faq__list--table--body--num">7</td>
+                                        <td class="faq__list--table--body--sec">[홈페이지/모바일]</td>
+                                        <td class="faq__list--table--body--con"><a href="#">인터넷 예매 후 예매 내용 확인은 어떻게 하나요?</a></td>
+                                        <td class="faq__list--table--body--count">7741</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="faq__list--table--body--num">8</td>
+                                        <td class="faq__list--table--body--sec">[홈페이지/모바일]</td>
+                                        <td class="faq__list--table--body--con"><a href="#">이미 예매한 내역의 결제수단을 변경하고 싶어요.</a></td>
+                                        <td class="faq__list--table--body--count">7741</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="faq__list--table--body--num">9</td>
+                                        <td class="faq__list--table--body--sec">[관람권/결제수단]</td>
+                                        <td class="faq__list--table--body--con"><a href="#">CGV영화관람권(무비머니)은 어떻게 구매하나요?</a></td>
+                                        <td class="faq__list--table--body--count">7741</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="faq__list--table--body--num">10</td>
+                                        <td class="faq__list--table--body--sec">[홈페이지/모바일]</td>
+                                        <td class="faq__list--table--body--con"><a href="#">내가 본 영화를 실수로 삭제했어요. 복구 가능한가요?</a></td>
+                                        <td class="faq__list--table--body--count">7741</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="faq__list--table--body--num">11</td>
+                                        <td class="faq__list--table--body--sec">[특별관]</td>
+                                        <td class="faq__list--table--body--con"><a href="#">CINE&LIVING ROOM(씨네앤리빙룸) 상영관은 어떤곳인가요?</a></td>
+                                        <td class="faq__list--table--body--count">7741</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="faq__list--table--body--num">12</td>
+                                        <td class="faq__list--table--body--sec">[영화관이용]</td>
+                                        <td class="faq__list--table--body--con"><a href="#">LOLOL(롤롤) 운영시간은 어떻게 되나요?</a></td>
+                                        <td class="faq__list--table--body--count">7741</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="faq__list--table--body--num">13</td>
+                                        <td class="faq__list--table--body--sec">[영화관이용]</td>
+                                        <td class="faq__list--table--body--con"><a href="#">V버스터즈가 뭔가요?</a></td>
+                                        <td class="faq__list--table--body--count">7741</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="faq__list--table--body--num">14</td>
+                                        <td class="faq__list--table--body--sec">[홈페이지/모바일]</td>
+                                        <td class="faq__list--table--body--con"><a href="#">통신사(SKT, KT, LGU+)예매 시 적립/내가 본 영화등록/포토플레이 제작은 어떻게 하나요?</a></td>
+                                        <td class="faq__list--table--body--count">7741</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="faq__list--table--body--num">15</td>
+                                        <td class="faq__list--table--body--sec">[특별관]</td>
+                                        <td class="faq__list--table--body--con"><a href="#">SKY BOX 상영관은 어떤 곳인가요?</a></td>
+                                        <td class="faq__list--table--body--count">7741</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="faq__list--table--body--num">16</td>
+                                        <td class="faq__list--table--body--sec">[홈페이지/모바일]</td>
+                                        <td class="faq__list--table--body--con"><a href="#">포토플레이 출력 가능 극장은 어떻게 되나요?</a></td>
+                                        <td class="faq__list--table--body--count">7741</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="faq__list--table--body--num">17</td>
+                                        <td class="faq__list--table--body--sec">[홈페이지/모바일]</td>
+                                        <td class="faq__list--table--body--con"><a href="#">포토플레이 출력은 어떻게 하나요?</a></td>
+                                        <td class="faq__list--table--body--count">7741</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="faq__list--table--body--num">18</td>
+                                        <td class="faq__list--table--body--sec">[홈페이지/모바일]</td>
+                                        <td class="faq__list--table--body--con"><a href="#">포토플레이 제작 기준은 어떻게 되나요?</a></td>
+                                        <td class="faq__list--table--body--count">7741</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="faq__list--table--body--num">19</td>
+                                        <td class="faq__list--table--body--sec">[홈페이지/모바일]</td>
+                                        <td class="faq__list--table--body--con"><a href="#">포토플레이 취소 및 환불 규정은 어떻게 되나요?</a></td>
+                                        <td class="faq__list--table--body--count">7741</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="faq__list--table--body--num">20</td>
+                                        <td class="faq__list--table--body--sec">[홈페이지/모바일]</td>
+                                        <td class="faq__list--table--body--con"><a href="#">예매대행업체(맥스무비,인터파크,YES24) 예매 시 적립/내가 본 영화 등록/포토플레이 제작은 어떻게 하나요?(2020.08.31~)</a></td>
+                                        <td class="faq__list--table--body--count">7741</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <ul class="faq__list--page">
+                                <li class="on"><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li><a href="#">6</a></li>
+                                <li><a href="#">7</a></li>
+                                <li><a href="#">8</a></li>
+                                <li><a href="#">9</a></li>
+                            </ul>
+                            <!-- // faq__list--page -->
+                        </div>
+                        <!--// faq__list -->
+                        <div class="search-order">
+                            <ul>
+                                <li>
+                                    <span class="search-order__faq">01 자주찾는 질문 검색</span>
+                                </li>
+                                <li>
+                                    <span class="search-order__email">02 이메일 문의</span>
+                                    <button class="search-order__btn" type="button" onclick="location.href='#'">문의</button>
+                                </li>
+                                <li>
+                                    <span class="search-order__call">03 고객센터 전화 문의 1544-1122<br/>
+                                        <em>(상담가능 시간, 월~금 09:00~18:00)</em></span>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- // search-order-->
+                    </div>
+                    <!-- // tab_box_on-->
+                    <div class="tab_box">
+                        ff
+                    </div>
+                    <!-- // tab_box-->
+                    <div class="tab_box">
+                        ggg
+                    </div>
+                    <!-- // tab_box-->
+                    <div class="tab_box">
+                        ggg
+                    </div>
+                    <!-- // tab_box-->
+                    <div class="tab_box">
+                        ggg
+                    </div>
+                    <!-- // tab_box-->
+                    <div class="tab_box">
+                        ggg
+                    </div>
+                    <!-- // tab_box-->
+                    <div class="tab_box">
+                        ggg
+                    </div>
+                    <!-- // tab_box-->
+                    <div class="tab_box">
+                        ggg
+                    </div>
+                    <!-- // tab_box-->
+                    <div class="tab_box">
+                        ggg
+                    </div>
+                    <!-- // tab_box-->
+                    <div class="tab_box">
+                        ggg
+                    </div>
+                    <!-- // tab_box-->
+                </div>
+                <!-- // tab_box_container-->
+            </div>
+            <!-- // tab_wrap-->
+        </section>
+        <!-- // faq -->
+        <div class="scrollBtn">
+            <a href="movieChart.html" class="ticketBtn">예매하기</a>
+            <a href="#" class="upBtn top"><img src="image/upBtn.png" alt="상단이동버튼"></a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footAd">
+            <div class="footAdImg"><a href="#"><img src="image/footerAdImg.png"></a></div>
+        </div>
+        <!--footAd-->
+        <div class="footInfo">
+            <div class="content">
+            <ul class="policyList">
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#">IR</a></li>
+                <li><a href="#">채용정보</a></li>
+                <li><a href="#">광고/제휴/출점문의</a></li>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">편성기준</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">법적고지</a></li>
+                <li><a href="#">이메일주소무단수집거부</a></li>
+                <li><a href="#">윤리경영</a></li>
+                <li><a href="#">사이버감사실</a></li>
+            </ul>
+            <div class="companyInfo">
+                (04377)서울특별시 용산구 한강대로 23길 55, 아이파크몰 6층(한강로동)<br/>
+                대표이사 : 허민회 · 사업자등록번호 : 104-81-45690 · 통신판매업신고번호 : 2017-서울용산-0662 <a href="#">사업자정보확인</a><br/>
+                호스팅사업자 : CJ올리브네트웍스 · 개인정보보호 책입자 : 심준범 · 대표이메일 :cjcgvmaster@cj.net
+                CJ CGC. All Rights Reserved
+            </div>
+            </div>
+        </div>
+        <!--footInfo-->
+    </footer>
+<script src="js/jquery-3.5.1.js"></script>
+<script src="js/script.js"></script>
+<script src="js/swiper.js"></script>
+</body>
+</html>

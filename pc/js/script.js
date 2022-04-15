@@ -9,6 +9,16 @@
         $('.tab_box').eq(idx).show();
     });
 
+    $('.col-aside__snb li').on('click',function(){
+        $('.col-aside__snb li').removeClass('on');
+        $(this).addClass('on')
+    });
+
+    $('.faq__list--page li').on('click',function(){
+        $('.faq__list--page li').removeClass('on');
+        $(this).addClass('on')
+    });
+
     $( window ).scroll( function() {
         if ( $( this ).scrollTop() > 200 ) {
             $( '.top, .ticketBtn' ).fadeIn();

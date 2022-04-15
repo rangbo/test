@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+.tab-link_container{
+    display: flex;
+    height: 45px;
+    line-height: 45px; 
+    padding: 0 16px;
+    justify-content: space-between;
+}
+.tab-link {
+    font-size: 16px;
+    color: #9197A3;
+}
+a.active {
+    color: #000000;
+}
+.tab-inner_container{
+    display: flex;
+    padding: 0 20px;
+    height: 40px;
+    line-height: 40px;
+    background: #F2F2F2;
+}
+.tab-inner_link{
+    color: #9197A3;
+    margin-right: 11px;
+}
+.tab-inner_link::before{
+    content: '•';
+    width: 3px;
+    height: 3px;
+    font-size: 3px;
+    vertical-align: top;
+    margin-right: 7px;
+}
+.tab-inner_link.active{
+
+}
+.tab-content,
+.tab-inner_content {
+    display: none;
+}
+.tab-content.alive,
+.tab-inner_content.active {
+    display: block;
+}
+.chart{
+    display: flex;
+    padding: 0 16px;
+}
+.chart__img{
+    margin-right: 10px;
+}
+.chart__img img{
+    width: 80px;
+    height: 116px;
+    object-fit: cover;
+    object-position: center;
+}
+.chart__info--title{
+    text-align: left;
+    font-size: 17px;
+    display: block;
+    padding: 8px 0 3px 0;
+    line-height: 1rem;
+}
+.chart__info--per{
+    text-align: left;
+}
+.chart__info--per--egg{
+    font-size: 12px;
+}
+.chart__info--per--egg::before{
+    content: '';
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../image/eggGoldenegggood.png") no-repeat 0 -2px / 16px auto;
+}
+.chart__info--per--egg::after{
+    content: '·';
+    width: 3px;
+    height: 3px;
+    color: #666666;
+    margin: 0 3px;
+}
+.chart__info--per--book{
+    font-size: 12px;
+}
+.chart__info--per--book em{
+    color: #DC291E;
+    font-size: 12px;
+}
+.chart__info--date{
+    font-size: 12px;
+    text-align: left;
+    padding: 3px 0;
+    line-height: 1rem;
+}
+.chart__info--view{
+    font-size: 12px;
+    color: #9A9A9A;
+    line-height: 1rem;
+}

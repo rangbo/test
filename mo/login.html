@@ -10,6 +10,7 @@
     <link href="css/reset.css" rel="stylesheet" />
     <link href="css/login.css" rel="stylesheet" />
     <link href="css/swiper.css" rel="stylesheet" />
+    <link href="css/common.css" rel="stylesheet" />
 </head>
 <body>
     <header>
@@ -19,46 +20,85 @@
         </div>
         <!-- // head -->
     </header>
-    <main class="main">
-        <!--<h1 class="logo"><img src="image/logo.png" alt="로고이미지"></h1>-->
-        <section class="inputbox">
-            <div class="inputbox__id">
-                <input type="text" name="id" placeholder="CJ ONE 통합 아이디 6~12자">
-                <label for="id"></label>
+    <main>
+        <section class="main-content">
+        <h1 class="logo"><img src="image/logo.png" alt="로고이미지"></h1>
+            <div class="inputbox">
+                <div class="inputbox__id">
+                    <input type="text" name="id" placeholder="CJ ONE 통합 아이디 6~12자">
+                    <label for="id"></label>
+                </div>
+                <!-- // inputbox__id-->
+                <div class="inputbox__pw">
+                    <input type="text" name="pw" placeholder="영문+숫자+특수문자 6~12자">
+                    <label for="pw"></label>
+                </div>
+                <!-- // inputbox__pw-->
+                <div class="inputbox__check">
+                    <input type="checkbox" name="checkbox1" id="checkbox1">
+                    <label for="checkbox1"></label>
+                    <span>아이디저장</span>
+                </div>
+                <!-- //inputbox__check -->
             </div>
-            <!--inputbox__id-->
-            <div class="inputbox__pw">
-                <input type="text" name="pw" placeholder="영문+숫자+특수문자 6~12자">
-                <label for="pw"></label>
-            </div>
-            <!--inputbox__id-->
-            <div class="inputbox__check">
-                <input type="checkbox" name="checkbox">
-                <label for="checkbox"></label>
-                <span>아이디저장</span>
-            </div>
-            <!-- //inputbox__check -->
+            <!-- // inputbox-->
             <button type="button" onclick="location.href='#'" class="inputbox__btn">로그인</button>
+            <ul class="login-search">
+                <li><a href="#">아이디찾기</a></li>
+                <li><a href="#">비밀번호찾기</a></li>
+                <li><a href="#">회원가입</a></li>
+            </ul>
+            <!-- //login-search -->
+            <ul class="login-btn">
+                <li class="login-btn__member">
+                    <a href="#">
+                        <i><img src="image/noneidicon.png" alt="비회원예매아이콘"></i>
+                        비회원 예매 및 예매확인
+                    </a>
+                </li>
+                <li class="login-btn__naver">
+                    <a href="#">
+                        <i><img src="image/navericon.png" alt="네아로아이콘"></i>
+                            네이버 아이디 로그인
+                    </a>
+                </li>
+            </ul>
+            <!-- //login-btn -->
         </section>
-        <!-- // inputbox -->
-        <ul class="login-search">
-            <li><a href="#">아이디찾기</a></li>
-            <li><a href="#">비밀번호찾기</a></li>
-            <li><a href="#">회원가입</a></li>
-        </ul>
-        <!-- //login-search -->
-        <div class="login-btn">
-            
-        </div>
-        <!-- //login-btn -->
     </main>
     <footer>
-        <ul class="foot-nav">
-            <li class="foot-nav__menu"><a href="#">공지사항</a></li>
-            <li class="foot-nav__menu"><a href="#">고객센터</a></li>
-            <li class="foot-nav__menu"><a href="#">로그인</a></li>
-            <li class="foot-nav__menu"><a href="#">PC버전</a></li>
-        </ul>
+        <div class="foot">
+            <ul class="foot-nav">
+                <li class="foot-nav__menu"><a href="#">공지사항</a></li>
+                <li class="foot-nav__menu"><a href="#">고객센터</a></li>
+                <li class="foot-nav__menu"><a href="#">로그인</a></li>
+                <li class="foot-nav__menu"><a href="#">PC버전</a></li>
+            </ul>
+            <section class="foot-content">
+                <dl class="foot-info">
+                    <dt class="foot-info__title info--accordian">CJ CGV (주)
+                        <p class="foot-info__btn accordian-arrow">
+                            <img src="image/accordianbtn.png" alt="아코디언버튼">
+                        </p>
+                    </dt>
+                    <dd class="foot-info__content content" style="display: none;">
+                        대표이사 : 허민회<br/>
+                        (04377)서울특별시 용산구 한강대로 23길 55, 아이파크몰 6층(한강로동)<br/>
+                        통신판매업신고번호 : 2017-서울용산-0662 <a href="#">사업자정보확인</a><br/>
+                        사업자등록번호 : 104-81-45690<br/>
+                        개인정보보호 책임자 : 심준범 호스팅사업자 : CJ 올리브네트웍스<br/>
+                        대표이메일 : cjcgvmaster@cj.net 고객센터 : 1544-1122<br/>
+                    </dd>
+                </dl>
+                <ul class="foot-policy">
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">개인정보 처리방침</a></li>
+                    <li><a href="#">법적고지</a></li>
+                </ul>
+            </section>
+            <!-- //foot-content-->
+        </div>
+        <!-- // foot-info-->
     </footer>
 <script src="js/jquery-3.5.1.js"></script>
 <script src="js/swiper.js"></script>

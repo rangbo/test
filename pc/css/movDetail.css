@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+.col-aside__right{
+    float: right;
+    width: 160px;
+}
+.mov__img{
+    margin-right: 30px;
+}
+.mov__img img{
+    width: 185px;
+    height: 260px;
+}
+.mov{
+    display: flex;
+    margin-top: 40px;
+}
+.mov__info{
+    position: relative;
+}
+.mov__info--top{
+    display: flex;
+    align-items: center;
+}
+.mov__info--top--title{
+    float: left;
+    font-size: 25px;
+    font-weight: 500;
+    margin-right: 12px;
+}
+.mov__info--top--state{
+    font-size: 12px;
+    font-weight: 500;
+    color: #A16423;
+    width: 47px;
+    height: 23px;
+    line-height: 23px;
+    border: 2px solid #A16423;
+    margin-right: 10px;
+}
+.mov__info--top--day{
+    font-size: 12px;
+    font-weight: 500;
+    color: #FB4357;
+    width: 30px;
+    height: 23px;
+    line-height: 23px;
+    border: 2px solid #FB4357;
+}
+.mov__info--eng{
+    font-size: 12px;
+    color: #666666;
+    text-align: left;
+}
+.mov__per{
+    margin-top: 25px;
+}
+.mov__per--num{
+    float: left;
+    font-weight: 500;
+    color: #666666;
+    padding-bottom: 10px;
+}
+.mov__per--num em{
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 5px;
+}
+.mov__per--num::after{
+    content: '';
+    width: 1px;
+    height: 10px;
+    font-size: 8px;
+    margin: 0 5px;
+    border-right: 1px solid #666666;
+}
+.mov__per--egg{
+    float: left;
+    font-size: 12px;
+    font-weight: 500;
+    color: #333333;
+}
+.mov__per--egg::before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: text-bottom;
+    background: url("../image/perEgg.png") no-repeat 0 0 / 20px auto;
+}
+.mov__info--text{
+    clear: both;
+    padding-top: 18px;
+    border-top: 1px solid #d9d6c8;
+}
+.mov__info--text p{
+    text-align: left;
+    font-size: 13px;
+    font-weight: 500;
+    color: #333333;
+}
+.mov__info--btn{
+    text-align: left;
+    margin-top: 24px;
+}
+.mov__info--btn--egg{
+    width: 106px;
+    height: 35px;
+    border-radius: 4px;
+    border: 1px solid #222222;
+    margin-right:4px;
+}
+.mov__info--btn--egg p{
+    font-size: 14px;
+}
+.mov__info--btn--egg p::before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../image/eggBtn.png") no-repeat 0 -2px / 20px auto;
+}
+.mov__info--btn--buy{
+    width: 91px;
+    height: 35px;
+    border-radius: 4px;
+    background: #FB4357;
+    color: #ffffff;
+    font-weight: bold;
+}
+.mov__info--badge{
+    display: flex;
+    position: absolute;
+    right: 0;
+    bottom: 36px;
+}
+.mov__info--badge--imax{
+    width: 80px;
+    height: 56px;
+    border-radius: 5px;
+    border: 2px solid #0397d6;
+    margin-right: 10px;
+}
+.mov__info--badge--4dx{
+    width: 80px;
+    height: 56px;
+    border-radius: 5px;
+    border: 2px solid #615f5f;
+}
+.mov__info--badge--imax img{
+    width: 59px;
+    height: 17px;
+    margin-top: 20px;
+}
+.mov__info--badge--4dx img{
+    width: 59px;
+    height: 25px;
+    margin-top: 16px;
+}
