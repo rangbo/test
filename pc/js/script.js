@@ -14,8 +14,13 @@
         $(this).addClass('on')
     });
 
-    $('.faq__list--page li').on('click',function(){
-        $('.faq__list--page li').removeClass('on');
+    $('.list-page li').on('click',function(){
+        $('.list-page li').removeClass('on');
+        $(this).addClass('on')
+    });
+
+    $('.mov-comment__top--tab').on('click',function(){
+        $('.mov-comment__top--tab').removeClass('on');
         $(this).addClass('on')
     });
 

@@ -157,29 +157,6 @@
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
 }
-.faq__list--page{
-    margin-bottom: 60px;
-}
-.faq__list--page::after{
-    content: '';
-    width: 40px;
-    height: 40px;
-    display: inline-block;
-    vertical-align: middle;
-    background: url("../image/pageNextBtn.png") no-repeat 0 0 / 40px auto;
-}
-.faq__list--page li{
-    display: inline-block;
-    margin-right: 16px;
-}
-.faq__list--page li a{
-    font-size: 16px;
-}
-.faq__list--page li.on a{
-    font-size: 16px;
-    color: #FB4357;
-    text-decoration: underline;
-}
 .search-order{
     margin-bottom: 100px;
 }
